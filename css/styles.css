@@ -1,15 +1,18 @@
 .buttons{
   display: inline-block;
   position: relative;
-  float:left;
-  text-align: center;
   margin:auto;
 }
 .person{
-  display: inline-block;
+  display: inline;
+  text-align: center;
+  position: relative;
+  color: rgba(255, 255, 255, 1.0);
+  font-family: "Georgia", serif;
+  font-size: 1.2em;
 }
 .green-button{
-  fill: #00ff65;
+  fill: #069406;
   display: inline;
   padding-right: 10px;
   margin:auto;
@@ -25,4 +28,25 @@
 svg{
   height: 40px;
   width:40px;
+}
+.overlay{
+  width: 180px;
+  height: 240px;
+}
+.correct{
+  background-color: #069406;
+  opacity: 0.7;
+  z-index: 9999;
+  position: absolute;
+  width: 180px;
+  height: 240px;
+  color: rgba(255, 255, 255, 1.0);
+}
+.incorrect{
+  background-color: #ff0015;
+  opacity: 0.7;
+  z-index: 9999;
+  position: absolute;
+  width: 180px;
+  height: 240px;
 }
