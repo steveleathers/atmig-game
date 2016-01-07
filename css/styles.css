@@ -1,6 +1,13 @@
+.buttons{
+  display: inline;
+  position: relative;
+  float:left;
+}
 .green-button{
-  fill: #0f0;
+  fill: #00ff65;
+  display: inline;
 }
 .red-button{
-  fill: #f00;
+  fill: #ff0015;
+  display: inline;
 }
