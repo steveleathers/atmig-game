@@ -1,13 +1,28 @@
 .buttons{
-  display: inline;
+  display: inline-block;
   position: relative;
   float:left;
+  text-align: center;
+  margin:auto;
+}
+.person{
+  display: inline-block;
 }
 .green-button{
   fill: #00ff65;
   display: inline;
+  padding-right: 10px;
+  margin:auto;
+  float:left;
 }
 .red-button{
   fill: #ff0015;
   display: inline;
+  padding-right: 0px;
+  margin:auto;
+  float:left;
+}
+svg{
+  height: 40px;
+  width:40px;
 }
