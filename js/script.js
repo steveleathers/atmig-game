@@ -4,13 +4,10 @@ $(document).ready(function() {
   });
 
   $('#person2').click(function(){
-    $(this).children('div.overlay').children('p.correct').removeClass('hidden');
+    $(this).children('div.overlay').children('p.incorrect').removeClass('hidden');
   });
 
-  $('#person3 .green-button').click(function(){
+  $('#person3').click(function(){
     $(this).children('div.overlay').children('p.correct').removeClass('hidden');
-  });
-  $('#person3 .red-button').click(function(){
-    $(this).children('div.overlay').children('p.incorrect').removeClass('hidden');
   });
 });
