@@ -19,17 +19,17 @@ $(document).ready(function() {
   });
 
   $('#person6').click(function(){
-    $(this).children('div.overlay').children('p.incorrect').removeClass('hidden');
+    $(this).children('div.overlay').children('p.correct').removeClass('hidden');
   });
   $('#person7').click(function(){
     $(this).children('div.overlay').children('p.correct').removeClass('hidden');
   });
 
   $('#person8').click(function(){
-    $(this).children('div.overlay').children('p.incorrect').removeClass('hidden');
+    $(this).children('div.overlay').children('p.correct').removeClass('hidden');
   });
 
   $('#person9').click(function(){
-    $(this).children('div.overlay').children('p.correct').removeClass('hidden');
+    $(this).children('div.overlay').children('p.incorrect').removeClass('hidden');
   });
 });
